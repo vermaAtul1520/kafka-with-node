@@ -10,8 +10,8 @@ async function init(){
     await admin.createTopics({
         topics: [
             {
-                topic: "Users",
-                numPartitions :2
+                topic: "Users1",
+                numPartitions :1
             }
         ]
     })
